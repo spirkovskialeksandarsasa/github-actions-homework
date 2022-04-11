@@ -65,6 +65,7 @@ on:
 
 jobs:
   docker:
+  needs: linter
     runs-on: ubuntu-latest
     steps:
       -
